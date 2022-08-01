@@ -1,6 +1,6 @@
 async function setData (period){
 
-	const res = await fetch('.script/data.json');
+	const res = await fetch('script/data.json');
   	const data = await res.json();
 
 	const title = document.querySelectorAll(".item-title");
